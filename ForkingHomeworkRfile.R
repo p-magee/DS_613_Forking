@@ -4,6 +4,8 @@ library(data.table)
 
 diamonds
 
+abcdef
+
 diamonds%>%
   select(carat,cut,price)%>%
   filter(cut == "Premium")%>%
